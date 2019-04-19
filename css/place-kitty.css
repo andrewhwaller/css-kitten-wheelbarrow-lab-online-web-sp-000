@@ -11,14 +11,14 @@ img.kitty-1 {
 
 img.kitty-2 {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 212px;
   left: 369px;
 }
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
 
-/*__write_selector_here__*/ {
+#basket > img {
   position: absolute;
   z-index: 5;
   top: 291px;
